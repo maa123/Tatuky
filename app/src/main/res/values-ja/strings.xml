@@ -21,7 +21,7 @@
 
     <string name="title_home">ホーム</string>
     <string name="title_notifications">通知</string>
-    <string name="title_public_local">ローカル</string>
+    <string name="title_public_local">ますとどんちほー</string>
     <string name="title_public_federated">連合</string>
     <string name="title_thread">スレッド</string>
     <string name="title_tag">#%s</string>
@@ -64,8 +64,8 @@
     <string name="action_unblock">ブロック解除</string>
     <string name="action_report">通報</string>
     <string name="action_delete">削除</string>
-    <string name="action_send">トゥート</string>
-    <string name="action_send_public">トゥート！</string>
+    <string name="action_send">がおー</string>
+    <string name="action_send_public">がおー！</string>
     <string name="action_retry">再試行</string>
     <string name="action_mark_sensitive">不適切なコンテンツとして設定</string>
     <string name="action_hide_text">投稿文を注意書きで隠す</string>
@@ -96,12 +96,12 @@
     <string name="action_edit_profile">プロフィールを編集</string>
     <string name="action_undo">取り消す</string>
 
-    <string name="send_status_link_to">トゥートのURLを共有…</string>
-    <string name="send_status_content_to">トゥートを共有…</string>
+    <string name="send_status_link_to">がおーのURLを共有…</string>
+    <string name="send_status_content_to">がおーを共有…</string>
 
     <string name="search">ユーザーを検索…</string>
 
-    <string name="confirmation_send">トゥート！</string>
+    <string name="confirmation_send">がおー！</string>
     <string name="confirmation_reported">送信しました！</string>
     <string name="confirmation_unblocked">ブロックを解除しました</string>
     <string name="confirmation_unmuted">ミュートを解除しました</string>
@@ -159,6 +159,6 @@
     <string name="notification_title_summary">%d件の新しい通知</string>
 
     <string name="description_account_locked">非公開アカウント</string>
-    <string name="status_share_content">トゥートの内容を共有</string>
-    <string name="status_share_link">トゥートへのリンクを共有</string>
+    <string name="status_share_content">がおーの内容を共有</string>
+    <string name="status_share_link">がおーへのリンクを共有</string>
 </resources>
