@@ -111,13 +111,15 @@ public class PushNotificationClient {
         options.setAutomaticReconnect(true);
         options.setCleanSession(false);
         try {
+/*  
+ビルドのためにコメントアウト
             String password = context.getString(R.string.tusky_api_keystore_password);
             InputStream keystore = context.getResources().openRawResource(R.raw.keystore_tusky_api);
             try {
                 options.setSocketFactory(mqttAndroidClient.getSSLSocketFactory(keystore, password));
             } finally {
                 IOUtils.closeQuietly(keystore);
-            }
+            } */
             mqttAndroidClient.connect(options).setActionCallback(new IMqttActionListener() {
                 @Override
                 public void onSuccess(IMqttToken asyncActionToken) {
