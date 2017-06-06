@@ -787,6 +787,8 @@ public abstract class Emojione
         _shortNameToUnicode.put("ram", new String(new int[] {0x1f40f}, 0, 1));
         _shortNameToUnicode.put("sheep", new String(new int[] {0x1f411}, 0, 1));
         _shortNameToUnicode.put("goat", new String(new int[] {0x1f410}, 0, 1));
+        _shortNameToUnicode.put("yagi", new String(new int[] {0x1f410}, 0, 1));
+        _shortNameToUnicode.put("mazai", new String(new int[] {0x1f6e2}, 0, 1));
         _shortNameToUnicode.put("dromedary_camel", new String(new int[] {0x1f42a}, 0, 1));
         _shortNameToUnicode.put("camel", new String(new int[] {0x1f42b}, 0, 1));
         _shortNameToUnicode.put("elephant", new String(new int[] {0x1f418}, 0, 1));
