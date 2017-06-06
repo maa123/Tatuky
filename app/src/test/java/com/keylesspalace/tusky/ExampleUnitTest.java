@@ -1,4 +1,4 @@
-package com.keylesspalace.tusky;
+package com.maa123.tatuky;
 
 import org.junit.Test;
 
