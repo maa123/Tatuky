@@ -1,4 +1,4 @@
-package com.maa123.tatuky;
+package net.maa123.tatuky;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.maa123.tatuky", appContext.getPackageName());
+        assertEquals("net.maa123.tatuky", appContext.getPackageName());
     }
 }

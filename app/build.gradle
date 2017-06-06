@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
     defaultConfig {
-        applicationId "com.maa123.tatuky"
+        applicationId "net.maa123.tatuky"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 18

@@ -33,9 +33,9 @@
     @retrofit2.http.* <methods>;
 }
 
--keep class com.maa123.tatuky.entity.** { *; }
+-keep class net.maa123.tatuky.entity.** { *; }
 
--keep public enum com.maa123.tatuky.entity.*$** {
+-keep public enum net.maa123.tatuky.entity.*$** {
     **[] $VALUES;
     public *;
 }

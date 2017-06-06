@@ -95,7 +95,7 @@
 
     </RelativeLayout>
 
-    <com.maa123.tatuky.util.FlowLayout
+    <net.maa123.tatuky.util.FlowLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/status_content_warning_bar"
@@ -127,7 +127,7 @@
             android:textAllCaps="true"
             android:background="?attr/content_warning_button" />
 
-    </com.maa123.tatuky.util.FlowLayout>
+    </net.maa123.tatuky.util.FlowLayout>
 
     <TextView
         android:id="@+id/status_content"

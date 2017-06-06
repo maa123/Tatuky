@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.maa123.tatuky">
+    package="net.maa123.tatuky">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -88,7 +88,7 @@
         <service android:name="org.eclipse.paho.android.service.MqttService" />
         <service
             tools:targetApi="24"
-            android:name="com.maa123.tatuky.service.TuskyTileService"
+            android:name="net.maa123.tatuky.service.TuskyTileService"
             android:icon="@drawable/ic_send_24dp"
             android:label="Compose Toot"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -99,7 +99,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.maa123.tatuky.fileprovider"
+            android:authorities="net.maa123.tatuky.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

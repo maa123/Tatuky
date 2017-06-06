@@ -1,4 +1,4 @@
-package com.maa123.tatuky;
+package net.maa123.tatuky;
 
 import org.junit.Test;
 
