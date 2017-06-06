@@ -1,3 +1,11 @@
+
+# Tatuky
+
+Tuskyの言語ファイルを書き換えただけのものです。
+
+
+
+
 # Tusky
 
 ![](app/src/main/res/drawable/tusky_logo.png)
