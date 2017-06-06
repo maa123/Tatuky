@@ -34,7 +34,8 @@
                     android:inputType="textUri"
                     android:hint="@string/hint_domain"
                     android:ems="10"
-                    android:id="@+id/edit_text_domain" />
+                    android:id="@+id/edit_text_domain"
+                    android:text="mstdn.kemono-friends.info" />
             </android.support.design.widget.TextInputLayout>
 
             <Button
