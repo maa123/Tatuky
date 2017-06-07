@@ -19,10 +19,10 @@
     <string name="error_media_upload_sending">アップロードに失敗しました。</string>
     <string name="error_report_too_few_statuses">少なくとも1つの投稿を報告してください。</string>
 
-    <string name="title_home">ホーム</string>
+    <string name="title_home">なわばり</string>
     <string name="title_notifications">通知</string>
     <string name="title_public_local">ますとどんちほー</string>
-    <string name="title_public_federated">連合</string>
+    <string name="title_public_federated">ジャパリパーク</string>
     <string name="title_thread">スレッド</string>
     <string name="title_tag">#%s</string>
     <string name="title_statuses">がおー</string>
