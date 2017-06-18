@@ -1,0 +1,17 @@
+general:
+  branches:
+    only:
+      - master
+  artifacts:
+    - "app/build/outputs/apk/app-release-unsigned.apk"
+machine:
+  java:
+    version: openjdk8
+  environment:
+    ANDROID_HOME: /usr/local/android-sdk-linux
+dependencies:
+  override:
+    - echo y | android update sdk --no-ui --filter "android-25,build-tools-25.0.3"
+test:
+  override:
+    - echo "No test"
