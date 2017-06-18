@@ -19,5 +19,5 @@ deployment:
   master:
     branch: master
     commands:
-#      - ./gradlew assembleRelease
-      - ./gradlew build
+      - ./gradlew assembleRelease
+#      - ./gradlew build
