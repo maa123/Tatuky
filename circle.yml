@@ -3,7 +3,7 @@ general:
     only:
       - master
   artifacts:
-    - app/build/outputs
+    - "app/build/outputs/apk/app-release-unsigned.apk"
 machine:
   java:
     version: openjdk8
