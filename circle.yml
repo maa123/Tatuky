@@ -15,7 +15,6 @@ dependencies:
 test:
   override:
     - echo "No test"
-    - ./gradlew build
 deployment:
   master:
     branch: master
