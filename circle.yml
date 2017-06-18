@@ -21,4 +21,4 @@ deployment:
     commands:
       - ./gradlew assembleRelease
 #      - ./gradlew build
-      - curl -F "file=@app/build/outputs/apk/app-release-unsigned.apk" -F "token=${DEPLOYGATE_API_KEY}" -F "message=sample" https://deploygate.com/api/users/maa123/apps
+      - curl -F "file=@app/build/outputs/apk/app-release-unsigned.apk" -F "token=${DEPLOYGATE_API_KEY}" -F "message=Auto" https://deploygate.com/api/users/maa123/apps
