@@ -42,6 +42,7 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-gson:2.2.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.squareup.okhttp3:okhttp:3.7.0'
+    compile 'com.squareup.okio:okio:1.13.0'
     compile 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0'
     compile 'com.pkmmte.view:circularimageview:1.1'
     compile 'com.github.varunest:sparkbutton:1.0.5'
