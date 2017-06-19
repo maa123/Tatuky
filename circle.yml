@@ -3,7 +3,7 @@ general:
     only:
       - master
   artifacts:
-    - "app/build/outputs"
+    - "app/build"
 machine:
   java:
     version: openjdk8
